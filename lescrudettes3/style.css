@@ -1,0 +1,117 @@
+/* Ajouts et améliorations */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #D3EDA9; /* Vert clair */
+  color: #333;
+}
+
+header {
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1em;
+}
+
+header .logo {
+  height: 50px;
+}
+
+header nav button#menu {
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  color: #8A2BE2; /* Violet */
+  cursor: pointer;
+}
+
+header nav button#menu:hover {
+  color: #5A189A; /* Violet foncé */
+}
+
+.banner {
+  position: relative;
+  text-align: center;
+}
+
+.banner-image {
+  width: 100%;
+  height: auto;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 2em;
+  background: rgba(0, 0, 0, 0.6); /* Légèrement transparent */
+  padding: 10px;
+}
+
+.product-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.product {
+  text-align: center;
+}
+
+.product-image {
+  max-width: 250px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.product-image:hover {
+  transform: scale(1.1);
+}
+
+.recipe-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.recipe-text {
+  font-size: 1.5em;
+  color: #8A2BE2;
+}
+
+button.violet-button {
+  background: #8A2BE2;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button.violet-button:hover {
+  background: #5A189A;
+}
+
+footer {
+  background: white;
+  text-align: center;
+  padding: 1em;
+}
+
+footer .social-media a {
+  color: #8A2BE2;
+  font-size: 1.5em;
+  margin: 0 10px;
+}
+
+footer .social-media a:hover {
+  color: #5A189A;
+}

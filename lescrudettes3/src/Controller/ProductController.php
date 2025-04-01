@@ -17,7 +17,9 @@ final class ProductController extends AbstractController{
 
         dd($product);
         return $this->render('product/product.html.twig', [
-            'product' => $product,
+            'product' => $product['name'],
+            'description' => $product['description'],
+            'image' => $product['image']
         ]);
     }
 }
